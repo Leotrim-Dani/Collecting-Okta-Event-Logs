@@ -13,7 +13,7 @@ This Python script will pull Okta logs into a format that is easily parsable by 
 -	You will need Python 2.7
 -	You will need the "zc.lockfile" library. Install it using “pip install zc.lockfile”
 
-# Setup
+# Setup How to proceed
 1. Install the prerequisites.
 2. Add the necessary Okta configuration information inside config.properties.
 3. You can omit the contents for "startime.properties". However, if you would like to have this script start collecting events before the current time, you will need to add the following line by line:
